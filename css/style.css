@@ -1,0 +1,362 @@
+/*import fonts from fonts.css*/
+@import url(./font.css);
+
+
+/*  start designing header area */
+
+.Mr-auto{
+    padding: 0 2rem 0 5rem;
+    margin-left: 50%;
+    font-family: 'Xanh_Mono' 'cursive';
+    text-transform: uppercase;
+    font-weight: 500;
+    color: black;
+}
+.header_area .main_menu .navbar{
+    padding: 0rem 20rem;
+}
+.header_area .main_menu .navbar:hover{
+    box-shadow: 1px 1px 9px rgb(173, 176, 176);
+    background: transparent;
+}
+
+.Mr-auto :hover{
+    color: green;
+}
+
+/* end designing header area */
+
+/* start banner area */
+.site-main .site-banner{
+    background: url(../img/background.png) no-repeat 0% 50%;
+}
+
+.site-main .site-banner .site-title{
+    text-align: end;
+}
+.site-main .site-banner .site-title h3{
+    
+     padding-top: 25%;
+     font-weight: 500;
+     padding-right: 25px;
+     
+}
+.site-main .site-banner .site-title h3::after{
+    content: "";
+    height: 2px;
+    width: 18vw;
+    background: black;
+    display: inline-block;
+    margin-left: 5%;
+    transform: translateY(-10px);
+}
+.site-main .site-banner .site-title h1{
+    font-size: 3rem;
+}
+
+.site-main .site-banner .site-title h4{
+    font-size: 1.5rem;
+    padding-right: 35px;
+}
+
+.site-main .site-banner .banner-image > img{
+    padding: 7rem 0;
+}
+
+/* start buttons */
+
+.site-main .site-banner .site-buttons{
+    text-align: right;
+    margin-left: 300px;
+}
+
+.button{
+
+    padding: .7rem 2.2rem; 
+    font: normal 500 16px/20px;
+    font-family: "Xanh_Mono" "cursive";
+    border: 2px solid rgba(50, 130, 50, 0.817);
+    border-radius: 5px;
+
+}
+.primary-button , .secondary-button:hover{
+    background-clip: padding-box;
+    margin-right: 10px;
+    transition: background .6s ease;
+    background-color: rgba(50, 130, 50, 0.817);
+    color: whitesmoke;
+    box-shadow: 4px 3px 9px lightblue;
+}
+
+.primary-button:hover{
+    background: whitesmoke;
+    color: black;
+    background-clip: padding-box;
+    border: 2px solid #328232d0;
+}
+
+/* End buttons */
+
+/* about area */
+
+.site-main .about-area{
+    padding: 8rem 5rem;
+}
+.site-main .about-area h2 > span{
+    display: block;
+    font: normal bold 49px/60px;
+    font-family: "Xaxh_Mono" cursive;
+    letter-spacing: 15px;
+}
+
+/* end about area */
+
+/* end banner area */
+
+/* ========== brand Area ====== */
+
+.site-main .brand-area{
+    padding: 1rem 20rem;
+    margin-bottom: 4rem;
+}
+
+.site-main .brand-area .first-row .col-lg-4{
+    display: flex;
+    justify-content: center;
+}
+
+.site-main .brand-area .first-row .col-lg-4 > .single-brand{
+    border: 1px solid lightgrey;
+    text-align: center;
+    padding: .5rem .3rem;
+    margin: .6rem 0rem;
+    width: 200px;
+    height: 100px;
+    cursor: pointer;
+    transition: transform .4s ease;
+    
+}
+
+.site-main .brand-area .first-row .col-lg-4>.single-brand:hover{
+    box-shadow: 3px 2px 9px rgb(173, 176, 176);
+    transform: scale(1.1);
+}
+
+.site-main .brand-area .experience-area{
+    padding-left: 1rem;
+}
+
+.site-main .brand-area .experience-area span{
+    display: block;
+}
+
+.site-main .brand-area .experience-area .years-area{
+    padding: 2rem 0;
+    width: 40rem;
+    height: 18rem;
+    padding-left: 8rem;
+    position: relative;
+}
+
+.site-main .brand-area .experience-area .bg-panel{
+    position: absolute;
+    left: 580px; top: 465%;
+    background: #e029290a;
+    width: 400px;
+    height: 400px;
+    margin-left: 340px;
+    z-index: -1;
+}
+.site-main .brand-area .experience-area .years-area .years{
+    font: normal bold 84px/40px xx-large;
+    color: #328232d0;
+}
+.site-main .brand-area .experience-area h2 > span{
+    font: normal 600 40px/35px xx-large;
+}
+.site-main .brand-area .experience-area .call-area{
+    padding-left: 150px;
+}
+/* ========== END brand ARea ======== */
+
+/* ============== services area ================ */
+
+.site-main .services-area{
+    padding: 7rem 2rem;
+}
+
+.site-main .services-area .services-title{
+    padding: 0 14rem;
+}
+
+.site-main .services-area .services-title h1{
+    font-size: 40px;
+
+}
+
+.site-main .services-area .services{
+    background: rgba(248, 252, 253, 0.973);
+    padding: 2rem 0;
+    width: 16rem;
+    margin: 5rem .5rem;
+    transition: box-shadow .7s ease;
+}
+
+.site-main .services-area .services:hover{
+    box-shadow: 3px 2px 9px rgb(173, 176, 176);
+}
+
+/* end services area */
+
+/* Start Project Area */
+
+.site-main .project-area{
+    padding: 4rem 0;
+}
+
+.site-main .project-area .button-group button{
+    background: transparent;
+    border: none;
+    font: normal 500 20px/130px xx-large;
+    text-transform: uppercase;
+    padding: 0rem 1.5rem;
+}
+
+.site-main .project-area .grid .our-project> .title h4{
+    font: normal 700 25px/12px xx-large;
+}
+
+.site-main .project-area .grid .our-project .img a:hover img{
+    filter: brightness(1.1)drop-shadow(1px 8px 30px #b1afaf);
+}
+
+.pylink{
+    color: #000;
+    text-decoration: none;
+}
+
+.pylink:hover{
+    color: green;
+}
+
+/* End Project Area */
+
+/* start about area */
+
+.site-main .about-area .about-title p{
+    padding: 1rem 7rem;
+}
+
+.site-main .about-area .client{
+    background: #ffffff10;
+    box-shadow: 2px 1px 9px rgb(173, 176, 176);
+    margin: 3rem 0rem;
+}
+
+.site-main .about-area .client .client-img{
+    padding: 2rem;
+}
+
+.site-main .about-area .client .about-client{
+    padding: 2rem;
+}
+
+.site-main .about-area .client .about-client h4{
+    font: 700 28px/27px xx-large;
+}
+.site-main .about-area .owl-carousel .owl-item{
+    display: flex;
+    justify-content: center;
+    padding: 0 1.5rem;
+}
+
+/* end about area */
+
+/* start subscribe me */
+
+
+.site-main .subscribe-us-area .subscribe-title h4{
+    color: white;
+    font: normal 700 30px/30px xx-large;
+}
+
+.site-main .subscribe-us-area .subscribe-title p{
+    color: whitesmoke;
+    padding: 1rem 4rem;
+}
+
+.site-main .subscribe-us-area .subscribe{
+    background: url(/img/bg1.webp)no-repeat;
+    padding: 10rem 0;
+    margin: 3rem auto;
+
+}
+
+.site-main .subscribe-us-area .subscribe form .input-textbox input{
+    width: 500px;
+    padding: 1.4rrem 2rem;
+    border: 1px solid whitesmoke;
+    color: white;
+    background: transparent;
+    font: normal 500 17px/20px xx-large;
+}
+
+.site-main .subscribe-us-area .subscribe form .input-textbox input::placeholder{
+    color: white;
+}
+
+.site-main .subscribe-us-area .subscribe form .btn-submit button{
+    background-color: whitesmoke;
+    color: #000;
+ 
+}
+
+.site-main .subscribe-us-area .subscribe form .btn-submit button:hover{
+    filter: brightness(1.1);
+}
+
+
+/* End subscribe me */
+
+/* FOOTER AREA */
+
+footer.footer-area{
+    padding: 5rem 0;
+}
+
+footer.footer-area .social h5{
+    font: normal 600 25px/30px xx-large;
+}
+
+footer.footer-area .social a > i{
+    font-size: 22px;
+    padding: 2rem;
+    color: rgb(117, 115, 113);
+}
+
+#fb:hover,#tw:hover{
+    color: rgb(57, 93, 212);
+}
+
+#ig:hover{
+    color: rgba(215, 31, 120, 0.847);
+}
+
+#yt:hover{
+    color: red;
+}
+
+
+
+/* END FOOTER */
+
+.navbar_fixe{
+    position: fixed;
+    width: 100%;
+    top: -10px;
+    left: 0; right: 0;
+    background: #ffffff;
+    box-shadow: 1px 1px 9px rgb(173, 176, 176);
+    z-index: 999;
+    transition: background 1s ease;
+}
